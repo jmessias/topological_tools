@@ -24,11 +24,11 @@
  */
 
 
-#include "topological_map/topological_node.h"
+#include "topological_tools/topological_node.h"
 
 using namespace std;
 using namespace ros;
-using namespace topological_map;
+using namespace topological_tools;
 
 
 

@@ -24,11 +24,11 @@
  */
 
 
-#include <topological_map/pose_labeler.h>
+#include <topological_tools/pose_labeler.h>
 
 
 
-using namespace topological_map;
+using namespace topological_tools;
 
 
 

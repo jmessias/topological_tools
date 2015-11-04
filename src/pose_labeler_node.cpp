@@ -32,8 +32,8 @@
 #include <nav_msgs/MapMetaData.h>
 #include <geometry_msgs/PoseWithCovarianceStamped.h>
 
-#include <topological_map/pose_labeler.h>
-#include <topological_map/PoseLabel.h>
+#include <topological_tools/pose_labeler.h>
+#include <topological_tools/PoseLabel.h>
 
 #include <stdlib.h>
 
@@ -41,7 +41,7 @@
 
 
 
-namespace topological_map
+namespace topological_tools
 {
 class PoseLabelerWrapper : public PoseLabeler
 {
@@ -95,7 +95,7 @@ int main ( int argc, char** argv )
     }
     else
     {
-        topological_map::PoseLabelerWrapper plw ( argv[1], argv[2] );
+        topological_tools::PoseLabelerWrapper plw ( argv[1], argv[2] );
         ros::spin();
     }
 
